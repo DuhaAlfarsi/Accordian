@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Arima:wght@100;200;300&family=Cairo:wght@200;300;400;500;600;700;800;900&family=Comfortaa:wght@300&family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner&family=Montserrat+Alternates:ital,wght@0,100;0,200;1,100&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,600&display=swap");
+
+:root {
+  --primary-color: #000;
+  --secondary-color: #ffbf00;
+
+  --label-bg-color: #fff;
+  --content-bg-color: #fff;
+  --content-color: #42464a;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+h1 span{
+    color: var(--secondary-color);
+}
